@@ -1,6 +1,26 @@
-## v0.9.5 (is comming)
+# Simhash ChangeLog
 
-1. 更新[CppJieba]，提高性能。
+## v0.10.1
+
++ upgrade cppjieba to v4.5.3
+
+## v0.10.0
+
++ add new directory: `deps` for `cppjieba` and `limonp`
++ change `namespace Simhash` to `namespace simhash` 
++ mv `src/main.cpp` to `example/demo.cpp`
++ mv `src/` to `include/`
+
++ upgrade limonp to v0.5.4
++ upgrade cppjieba to v4.5.0
+
+## v0.9.6
+
+1. 升级 [CppJieba] 到 v4.1.2 版本。
+
+## v0.9.5
+
+1. 使用[CppJieba] v3.0.1 ，修复一些兼容性问题。
 
 ## v0.9.4
 
@@ -23,4 +43,4 @@
 
 1. 完成分词，关键词抽取，simhash值计算的基本功能
 
-[CppJieba]:https://github.com/aszxqw/cppjieba.git
+[CppJieba]:https://github.com/yanyiwu/cppjieba.git
